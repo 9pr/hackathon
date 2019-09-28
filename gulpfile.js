@@ -17,6 +17,9 @@ const svgo = require('gulp-svgo');
 const htmlmin = require('gulp-htmlmin');
 
 
+var nunjucks = require('nunjucks');
+var njIncludeData = require('nunjucks-includeData');
+
 /* Конфиг */
 var CONFIG = {
     output: 'public', /* Корневая папка сайта */
