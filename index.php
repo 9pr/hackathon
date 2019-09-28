@@ -1,12 +1,24 @@
 <?PHP
 //http://example.com/class=XXX&method=YYY&value=ZZZ
 header('Content-Type: text/html; charset=utf-8');
-$_GET['class'] = "xxx";
-$_GET['method'] = "yyy";
-$_GET['value'] = "ZZZ";
-$className = $_GET['class'];
-$classMethod = $_GET['method'];
-$methodValue = $_GET['value'];
+
+if (!isset($_GET['class'])) {
+    $className = '';
+} else {
+    $className = $_GET['class'];
+}
+
+if (!isset($_GET['method'])) {
+    $classMethod = '';
+} else {
+    $classMethod = $_GET['method'];
+}
+
+if (!isset($_GET['value'])) {
+    $methodValue = '';
+} else {
+    $methodValue = $_GET['value'];
+}
 
 /* Подключение к базе данных MySQL с помощью вызова драйвера */
 $host = '92.63.100.73';
