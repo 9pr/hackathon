@@ -74,8 +74,8 @@ class competence {
         // получаем уникальные недостающие компетенции
         $needCompUnik = array_unique ($this->needComp);
 
-        echo "Недостающие компетенции сокращаемых для переквалификации\r\n";
-        print_r($needCompUnik);
+        // echo "Недостающие компетенции сокращаемых для переквалификации\r\n";
+        // print_r($needCompUnik);
 
         foreach ($needCompUnik as $idComp) {
             $sql = 'SELECT COUNT(*) AS count FROM competence_employee
@@ -97,10 +97,10 @@ class competence {
         //теперь тут список сокращаемых должностей (массив с ид должности)
         $varReducible = $this->varReducible ($var[0]);
 
+        $result = [];
         //получаем список востребованных специальностей
-        echo "Востребованные специальности\r\n";
         $relevantSpecialties = $this->relevantSpecialties($var[1]);
-        print_r($relevantSpecialties);
+        $result["Востребованные специальности"] = $relevantSpecialties;
 
         //выясняем каких навыков/компетенций не хватает сокращаемым для занятия вакантных должностей
         foreach ($varReducible as $idSpeciality) {
@@ -114,14 +114,16 @@ class competence {
                 $retiredSpecialist[] = $this->employeeWeaknesses ($row, $relevantSpecialties);;
             }
         }
-        echo "Сокращаемые специалисты\r\n";
-        print_r($retiredSpecialist);
+        $result["Сокращаемые специалисты"] = $retiredSpecialist;
 
         // находим экспертов по недостающим компетенциям
         $needCompUnik = $this->expert2comp ();
 
-        echo "Эксперты по востребованным компетенциям\r\n";
-        print_r($needCompUnik);
+        $result["Эксперты по востребованным компетенциям"] = $needCompUnik;
+
+        header('Content-Type: application/json');
+        echo json_encode($result, JSON_UNESCAPED_UNICODE);
+
     }
 }
 ?>
