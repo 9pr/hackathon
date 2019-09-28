@@ -88,52 +88,10 @@
 				</div>
 				<div class="retraining__list list-group">
 					
-				
+
+
 
 				
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					
-
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
 					&lt;
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
@@ -164,20 +122,13 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					
+					 
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					
-
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
+					r
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -189,31 +140,13 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					c
+					q
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					h
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					o
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					 
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					f
+					u
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -225,7 +158,7 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					l
+					r
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -238,36 +171,6 @@
 					</label>
 					
 					_
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					g
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					e
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					_
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					c
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -285,31 +188,13 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					t
+					c
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
 					e
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					n
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					s
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -327,175 +212,7 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					h
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					p
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					:
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					/
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					/
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					h
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					r
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					.
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					9
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					p
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					r
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					.
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					r
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					u
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					/
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					i
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					n
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
 					d
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					e
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					x
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					.
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					p
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					h
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					p
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					?
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					c
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					l
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -507,49 +224,7 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					s
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					s
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					=
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					s
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					p
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					e
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					c
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					i
+					t
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -561,49 +236,13 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					l
+					.
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					i
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					y
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					&amp;
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					m
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					e
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
+					p
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -615,67 +254,7 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					o
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					d
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					=
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					g
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					e
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					_
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					l
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					i
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					s
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					t
+					p
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -693,20 +272,7 @@
 					 	<span class="retraining__list-label custom-control-label"></span>
 					</label>
 					
-					;
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					
-
+					 
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -719,43 +285,6 @@
 					</label>
 					
 					&gt;
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					
-
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-						
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="">
 					 	<span class="retraining__list-label custom-control-label"></span>
@@ -780,396 +309,6 @@
 				  </div>
 				</div>
 				<div class="retraining__list list-group">
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">
-					 	<span class="retraining__list-label custom-control-label"></span>
-					</label>
 					
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="">

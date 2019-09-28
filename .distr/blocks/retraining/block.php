@@ -13,9 +13,8 @@
 				</div>
 				<div class="retraining__list list-group">
 					
-				{% set specialities %}
-					{% include './data.php' %}
-				{% endset %}
+{% set specialities = "\<\?php require_once(\'data.php\') \?\>" %}
+
 
 				{% for item in specialities %}
 					{{item}}

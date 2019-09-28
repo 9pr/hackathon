@@ -121,8 +121,8 @@ class competence {
 
         $result["Эксперты по востребованным компетенциям"] = $needCompUnik;
 
-        //header('Content-Type: application/json');
-        echo '{% set data = '.json_encode($result, JSON_UNESCAPED_UNICODE).'%}';
+        header('Content-Type: application/json');
+        echo json_encode($result, JSON_UNESCAPED_UNICODE);
 
     }
 }
