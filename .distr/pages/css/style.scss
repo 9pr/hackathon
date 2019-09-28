@@ -1,0 +1,31 @@
+/***************************
+Шрифты
+***************************/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic-ext');
+@import url('fontello.css');
+
+
+/***************************
+Тема BS
+***************************/
+@import "_variables.scss"; // Переопределенные переменные BS
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+/***************************
+Плагины
+***************************/
+
+
+/***************************
+Сквозные блоки
+***************************/
+@import 'common/_style';
+@import 'header/_style';
+@import 'graph/_style';
+
+
+/***************************
+Страницы
+***************************/
+@import 'retraining/_style';

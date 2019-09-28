@@ -1,0 +1,50 @@
+.retraining {
+	&__caption {
+		[class*="icon"] {
+			animation: move 2s ease infinite;
+		}
+	}
+
+	&__list {
+		max-height: 400px;
+		overflow-y: auto;
+		border-bottom: none;
+		border-radius: 0;
+
+		&-item {
+			padding-left: 2rem;
+			transition: .2s;
+			&:last-child,
+			&:first-child {
+				border-radius: 0;
+			}
+			&:hover {
+				background: $gray-100;
+			}
+		}
+
+		&-checkbox:not(:checked) ~ &-label_off {
+			display: none;
+		}
+		&-checkbox:checked ~ &-label_off {
+			display: inline-block;
+		}
+		&-checkbox:checked ~ &-label_on {
+			display: none;
+		}
+
+	}
+}
+
+
+@keyframes move {
+  0 {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 1rem;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
