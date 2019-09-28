@@ -18,7 +18,7 @@ class speciality {
         foreach ($this->conn->query($sql, PDO::FETCH_ASSOC) as $line) {
             $result[] = $line;
         }
-
+        header('Content-Type: application/json');
         echo json_encode($result);
 
     }
