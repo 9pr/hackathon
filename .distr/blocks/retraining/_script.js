@@ -2,7 +2,6 @@ $(function(){
 
 	initCompareSpecialities();
 	initSearchSpecialities();
-	initSelectAll();
 
 });
 
@@ -14,39 +13,36 @@ function initCompareSpecialities() {
 	$(document).on('change', 'input.retraining__list-checkbox', function(){
 		var $_this = $(this),
 				val = parseInt($_this.val()),
-				name = $_this.next('.retraining__list-label').text(),
+				name = $_this.attr('name'),
 				checked = this.checked,
 				$_double = $('input.retraining__list-checkbox[value="'+val+'"]').not($_this)
 			;
-console.log(name, val);
-		if (!val || !$_double.length) return;
-		if (checked == true) {
-			$_double.prop('checked', false);
-			$_double.closest('.retraining__list-item').hide();
-		} else {
-			$_double.closest('.retraining__list-item').show();
+
+		if (val || !$_double.length) {
+			if (checked == true) {
+				$_double.prop('checked', false);
+				$_double.closest('.retraining__list-item').hide();
+			} else {
+				$_double.closest('.retraining__list-item').show();
+				$('input.retraining__list-checkbox[name="'+name+'"][value="0"]').prop('checked', false);
+			}
+		}
+
+		if (val == 0) {
+			if (checked) {
+				$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', true);
+			} else {
+				$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', false);
+			}
+		}
+
+		if ($('input.retraining__list-checkbox[name="'+name+'"]').length - 1 == $('input.retraining__list-checkbox[name="'+name+'"]:checked').length) {
+			$('input.retraining__list-checkbox[name="'+name+'"][value="0"]').prop('checked', true);
 		}
 	});
 
 }
 
-
-function initSelectAll() {
-	$('input.retraining__list-checkbox[value="0"]').on('change', function(){
-		var $_this = $(this),
-				name = $_this.attr('name'),
-				checked = $_this.prop('checked')
-			;
-
-		if (checked) {
-			$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', 'checked');
-		} else {
-			$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', false);
-		}
-
-		initCompareSpecialities();
-	});
-}
 
 
 function initSearchSpecialities() {

@@ -1,4 +1,10 @@
 .retraining {
+	&__caption {
+		[class*="icon"] {
+			animation: move 2s ease infinite;
+		}
+	}
+
 	&__list {
 		max-height: 400px;
 		overflow-y: auto;
@@ -7,6 +13,14 @@
 
 		&-item {
 			padding-left: 2rem;
+			transition: .2s;
+			&:last-child,
+			&:first-child {
+				border-radius: 0;
+			}
+			&:hover {
+				background: $gray-100;
+			}
 		}
 
 		&-checkbox:not(:checked) ~ &-label_off {
@@ -20,4 +34,17 @@
 		}
 
 	}
+}
+
+
+@keyframes move {
+  0 {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 1rem;
+  }
+  100% {
+    margin-left: 0;
+  }
 }

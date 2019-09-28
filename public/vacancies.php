@@ -39,12 +39,6 @@
 					<li class="nav-item header__navbar-item">
 						<button class="header__navbar-btn fancy btn btn-primary" data-fancybox data-toggle="tooltip" data-placement="bottom" title="Добавить сотрудника"><i class="icon-user-plus"></i></button>
 					</li>
-					<li class="nav-item header__navbar-item">
-						<button class="header__navbar-btn fancy btn btn-danger" data-fancybox data-toggle="tooltip" data-placement="bottom" title="Сократить должность"><i class="icon-user-times"></i></button>
-					</li>
-					<li class="nav-item header__navbar-item">
-						<button class="header__navbar-btn fancy btn btn-primary" data-fancybox data-toggle="tooltip" data-placement="bottom" title="Добавить должность"><i class="icon-user-times"></i></button>
-					</li>
 				</ul>
 			</div>
 			<form class="form-inline">

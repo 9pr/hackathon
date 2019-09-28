@@ -3,7 +3,7 @@
 	<div class="row">
 
 		<div class="col-md-6">
-			<h4 class="mb-3">Сокращенные специальности</h4>
+			<h4 class="mb-3 retraining__caption">Сокращенные специальности <i class="icon-right-fat"></i></h4>
 			<div class="retraining__col">
 				<div class="input-group">
 				  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">
@@ -30,7 +30,7 @@
 		</div>
 
 		<div class="col-md-6">
-			<h4 class="mb-3">Требуемые специальности</h4>
+			<h4 class="mb-3 retraining__caption">Требуемые специальности</h4>
 			<div class="retraining__col">
 				<div class="input-group">
 				  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">
@@ -58,7 +58,7 @@
 
 	<div class="row">
 		<div class="col-12 mt-4 my-4 text-center">
-			<button class="btn btn-success">Подобрать</button>
+			<button class="btn btn-success" type="submit">Подобрать</button>
 		</div>
 	</div>
 </div>

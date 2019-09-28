@@ -1,24 +1,10 @@
 {% set data = [
-		{
-			speciality_id:"1",
-			speciality_name:"\u0411\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440 1\u0421"
-		},
-		{
-			speciality_id:"2",
-			speciality_name:"\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 1\u0421"
-		},
-		{
-			speciality_id:"3",
-			speciality_name:"\u0412\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 B"
-		},
-		{
-			speciality_id:"4",
-			speciality_name:"\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 \u0431\u0435\u0441\u043f\u0438\u043b\u043e\u0442\u043d\u044b\u0445 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439"
-		},
-		{
-			speciality_id:"5",
-			speciality_name:"\u0421\u043f\u0435\u0446\u0430\u043b\u0438\u0441\u0442 \u043f\u043e \u0437\u0430\u043a\u0443\u043f\u043a\u0430\u043c"
-		}
+		{"speciality_id":"1","speciality_name":"Бухгалтер 1С"},
+		{"speciality_id":"2","speciality_name":"Программист 1С"},
+		{"speciality_id":"3","speciality_name":"Водитель автомобиля категории B"},
+		{"speciality_id":"4","speciality_name":"Программист беспилотных автомобилей"},
+		{"speciality_id":"5","speciality_name":"Спецалист по закупкам"},
+		{"speciality_id":"6","speciality_name":"Администратор"},
+		{"speciality_id":"7","speciality_name":"Frontend-разработчик"}
 	]
-
 %}
