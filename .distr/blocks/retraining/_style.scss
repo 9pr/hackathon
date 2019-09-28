@@ -1,0 +1,23 @@
+.retraining {
+	&__list {
+		max-height: 400px;
+		overflow-y: auto;
+		border-bottom: none;
+		border-radius: 0;
+
+		&-item {
+			padding-left: 2rem;
+		}
+
+		&-checkbox:not(:checked) ~ &-label_off {
+			display: none;
+		}
+		&-checkbox:checked ~ &-label_off {
+			display: inline-block;
+		}
+		&-checkbox:checked ~ &-label_on {
+			display: none;
+		}
+
+	}
+}

@@ -1,0 +1,51 @@
+$graph-blue: '#0097fd';
+$graph-orange: '#ff6900';
+$graph-purple: '#E30611';
+
+.graph {
+	width: 100%;
+	max-width: 300px;
+
+	&__segment {
+		&_blue {
+			stroke: $graph-blue;
+		}
+		&_orange {
+			stroke: $graph-orange;
+		}
+		&_purple {
+			stroke: $graph-purple;
+		}
+	}
+
+	&__caption {
+		&-item {
+			display: flex;
+			align-items: center;
+			&:before {
+				content: '';
+				display: block;
+				width: 12px;
+				height: 12px;
+				margin-right: 12px;
+				border-radius: 50%;
+				background: $gray-100;
+			}
+			&_blue {
+				&:before {
+					background: $graph-blue;
+				}
+			}
+			&_orange {
+				&:before {
+					background: $graph-orange;
+				}
+			}
+			&_purple {
+				&:before {
+					background: $graph-purple;
+				}
+			}
+		}
+	}
+}
