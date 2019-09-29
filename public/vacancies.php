@@ -72,8 +72,7 @@
 
 					<div class="col-md-9">
 					
-
-<form class="form-inline mb-5 mt-2">
+						<form class="form-inline mb-5 mt-2">
 	<input class="form-control mr-sm-2" type="text" placeholder="Поиск по сотрудникам и вакансиям" aria-label="Search">
 	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
 </form>
@@ -127,74 +126,7 @@
 		</tr>
 	</tbody>
 </table>
-
-
-
-
-
-
-	
-
-
-<figure class="graph graph_engagement">
-  <h4 class="graph__heading">Метрика вовлеченности сотрудников</h4>
-  <div class="graph__content">
-    <svg width="100%" height="100%" viewBox="0 0 42 42" class="graph__svg" aria-labelledby="Метрика вовлеченности сотрудников" role="img">
-      <title class="graph__title">Метрика вовлеченности сотрудников</title>
-      <circle class="graph__hole" cx="21" cy="21" r="15.91549430918954" fill="#fff" role="presentation"></circle>
-      <circle class="graph__ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="5" role="presentation"></circle>
-      
-        
-          
-  <circle class="graph__segment graph__segment_blue" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="blue" stroke-width="5" stroke-dasharray="20 80" stroke-dashoffset="0">
-    <title class="graph__segment-title">&gt; 80%</title>
-    <desc class="graph__segment-desc">Лоялные сотрудники</desc>
-  </circle>
-
-        
-          
-  <circle class="graph__segment graph__segment_orange" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="orange" stroke-width="5" stroke-dasharray="20 80" stroke-dashoffset="80">
-    <title class="graph__segment-title">60% &amp;mdash; 80%</title>
-    <desc class="graph__segment-desc">Средняя вовлеченность</desc>
-  </circle>
-
-        
-          
-  <circle class="graph__segment graph__segment_green" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="green" stroke-width="5" stroke-dasharray="60 40" stroke-dashoffset="60">
-    <title class="graph__segment-title">&gt; 60%</title>
-    <desc class="graph__segment-desc">Средняя вовлеченность</desc>
-  </circle>
-
-        
-      
-    </svg>
-  </div>
-  <figcaption class="graph__caption">
-    <ul class="graph__caption-list" aria-hidden="true" role="presentation">
-      
-        
-          
-  <li class="graph__caption-item graph__caption-item_blue">Лоялные сотрудники</li>
-
-        
-          
-  <li class="graph__caption-item graph__caption-item_orange">Средняя вовлеченность</li>
-
-        
-          
-  <li class="graph__caption-item graph__caption-item_green">Средняя вовлеченность</li>
-
-        
-      
-    </ul>
-  </figcaption>
-</figure>
-
-
-
-
-
-
+					
 					</div>
 
 				</div>

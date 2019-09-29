@@ -75,118 +75,137 @@
 
 	<div class="retraining">
 	<h1 class="mb-4">Переквалификация</h1>
-	<div class="row">
 
-		<div class="col-md-6">
-			<h4 class="mb-3 retraining__caption">Сокращенные специальности <i class="icon-right-fat"></i></h4>
-			<div class="retraining__col">
-				<div class="input-group">
-				  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">
-				  <div class="input-group-append">
-				    <button class="btn btn-info" type="button"><i class="icon-search"></i></button>
-				  </div>
-				</div>
-				<div class="retraining__list list-group">
-					
+	<div class="retraining__tab retraining__tab_compare">
+		<div class="row">
 
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="1">
-					 	<span class="retraining__list-label custom-control-label">Бухгалтер 1С</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="2">
-					 	<span class="retraining__list-label custom-control-label">Программист 1С</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="3">
-					 	<span class="retraining__list-label custom-control-label">Водитель автомобиля категории B</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="4">
-					 	<span class="retraining__list-label custom-control-label">Программист беспилотных автомобилей</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="5">
-					 	<span class="retraining__list-label custom-control-label">Спецалист по закупкам</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="6">
-					 	<span class="retraining__list-label custom-control-label">Администратор</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="7">
-					 	<span class="retraining__list-label custom-control-label">Frontend-разработчик</span>
-					</label>
+			<div class="col-md-6">
+				<h4 class="mb-3 retraining__caption">Сокращенные специальности <i class="icon-right-fat"></i></h4>
+				<div class="retraining__col">
+					<div class="input-group">
+					  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">
+					  <div class="input-group-append">
+					    <button class="btn btn-info" type="button"><i class="icon-search"></i></button>
+					  </div>
+					</div>
+					<div class="retraining__list list-group">
+						
+
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="1">
+						 	<span class="retraining__list-label custom-control-label">Бухгалтер 1С</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="2">
+						 	<span class="retraining__list-label custom-control-label">Программист 1С</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="3">
+						 	<span class="retraining__list-label custom-control-label">Водитель автомобиля категории B</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="4">
+						 	<span class="retraining__list-label custom-control-label">Программист беспилотных автомобилей</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="5">
+						 	<span class="retraining__list-label custom-control-label">Спецалист по закупкам</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="6">
+						 	<span class="retraining__list-label custom-control-label">Администратор</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="7">
+						 	<span class="retraining__list-label custom-control-label">Frontend-разработчик</span>
+						</label>
+						
+					</div>
 					
 				</div>
-				
 			</div>
+
+			<div class="col-md-6">
+				<h4 class="mb-3 retraining__caption">Требуемые специальности</h4>
+				<div class="retraining__col">
+					<div class="input-group">
+					  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">
+					  <div class="input-group-append">
+					    <button class="btn btn-info" type="button"><i class="icon-search"></i></button>
+					  </div>
+					</div>
+					<div class="retraining__list list-group">
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="1">
+						 	<span class="retraining__list-label custom-control-label">Бухгалтер 1С</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="2">
+						 	<span class="retraining__list-label custom-control-label">Программист 1С</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="3">
+						 	<span class="retraining__list-label custom-control-label">Водитель автомобиля категории B</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="4">
+						 	<span class="retraining__list-label custom-control-label">Программист беспилотных автомобилей</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="5">
+						 	<span class="retraining__list-label custom-control-label">Спецалист по закупкам</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="6">
+						 	<span class="retraining__list-label custom-control-label">Администратор</span>
+						</label>
+						
+						<label class="retraining__list-item list-group-item custom-control custom-checkbox">
+						  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="7">
+						 	<span class="retraining__list-label custom-control-label">Frontend-разработчик</span>
+						</label>
+						
+					</div>
+					
+				</div>
+			</div>
+
 		</div>
 
-		<div class="col-md-6">
-			<h4 class="mb-3 retraining__caption">Требуемые специальности</h4>
-			<div class="retraining__col">
-				<div class="input-group">
-				  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">
-				  <div class="input-group-append">
-				    <button class="btn btn-info" type="button"><i class="icon-search"></i></button>
-				  </div>
-				</div>
-				<div class="retraining__list list-group">
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="1">
-					 	<span class="retraining__list-label custom-control-label">Бухгалтер 1С</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="2">
-					 	<span class="retraining__list-label custom-control-label">Программист 1С</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="3">
-					 	<span class="retraining__list-label custom-control-label">Водитель автомобиля категории B</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="4">
-					 	<span class="retraining__list-label custom-control-label">Программист беспилотных автомобилей</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="5">
-					 	<span class="retraining__list-label custom-control-label">Спецалист по закупкам</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="6">
-					 	<span class="retraining__list-label custom-control-label">Администратор</span>
-					</label>
-					
-					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
-					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_next" value="7">
-					 	<span class="retraining__list-label custom-control-label">Frontend-разработчик</span>
-					</label>
-					
-				</div>
-				
+		<div class="row">
+			<div class="col-12 mt-4 my-4 text-center">
+				<button id="retraining__compare" class="btn btn-lg btn-success" type="submit">Подобрать</button>
 			</div>
 		</div>
-
 	</div>
 
-	<div class="row">
-		<div class="col-12 mt-4 my-4 text-center">
-			<button id="retraining__compare" class="btn btn-success" type="submit">Подобрать</button>
-		</div>
+	<div class="retraining__tab retraining__tab_table mt-5">
+		<table id="retraining-table" class="table table-bordered table-striped table-hover table-sm" style="display: none;">
+			<thead>
+				<tr>
+					<th>Ф.И.О.</th>
+					<th>Текущая специальность</th>
+					<th>Требуемая специальность</th>
+					<th>Недостающие компетенции</th>
+					<th>Эксперты</th>
+					<th>Курсы</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
 	</div>
 </div>
 

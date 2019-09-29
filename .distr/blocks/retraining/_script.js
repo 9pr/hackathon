@@ -99,6 +99,35 @@ function initCompareSubmit() {
 
 		var compare = speciality_past + ':' + speciality_next;
 
-		console.log(compare);
+		$.getJSON( 'http://hr.9pr.ru/index.php?class=competence&method=reducible&value='+compare, function( data ) {
+			if (data) {
+				$('#retraining-table').show();
+				$('html, body').animate({
+					scrollTop: $('#retraining-table').offset().top
+				},500);
+			}
+		  console.log(data);
+		  $.each(data['Сокращаемые специалисты'], function(k,v){
+		  	// Строка
+		  	$.each(v['Должности'], function(kd, vd){
+		  		var wanted_skills = vd['Недостающие навыки'] ? Object.keys(vd['Недостающие навыки']).length : 0;
+		  		var tr = $('<tr>').append(
+			  		$('<td>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name + ' ' + v.employee_birthday})
+			  	).append(
+			  		$('<td>', {'html': v.post_name})
+			  	).append(
+			  		$('<td>', {'html': vd['Должность']})
+			  	).append(
+			  		$('<td>', {'html': wanted_skills})
+			  	).append(
+			  		$('<td>', {'html': wanted_skills})
+			  	).append(
+			  		$('<td>', {'html': wanted_skills})
+			  	);
+			  	tr.appendTo('#retraining-table tbody');
+		  	});
+
+		  });
+		});
 	});
 }
