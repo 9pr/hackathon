@@ -118,7 +118,7 @@ function initCompareSubmit() {
 	  			$('<option>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name, 'value': v.employee_id, 'name': 'retraining-table__filter_name'})
 	  		);
 
-		  	filter_post.push({post_name: post_id});
+		  	filter_post.push({v.post_name: v.post_id});
 	  		$('.retraining-table__filter_post').append(
 	  			$('<option>', {'html': v.post_name, 'value': v.post_id, 'name': 'retraining-table__filter_post'})
 	  		);
