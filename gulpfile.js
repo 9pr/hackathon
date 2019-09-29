@@ -148,7 +148,7 @@ gulp.task('styles:css', function () {
 gulp.task('nunjucks', ['styles:css', 'scripts'], function() {
     console.log('* Рендеринг шаблонов (Nunjucks) *');
 
-    return gulp.src('**/*.php', {cwd: CONFIG.pages})
+    return gulp.src(['**/*.php', '!_**/*.php'], {cwd: CONFIG.pages})
     .pipe( plugins.nunjucksRender({
         path: [CONFIG.templates, CONFIG.blocks],
         inheritExtension: true,

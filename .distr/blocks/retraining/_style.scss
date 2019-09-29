@@ -8,7 +8,7 @@
 	&__list {
 		max-height: 400px;
 		overflow-y: auto;
-		border-bottom: none;
+		border-bottom: $list-group-border-width solid $list-group-border-color;
 		border-radius: 0;
 
 		&-item {

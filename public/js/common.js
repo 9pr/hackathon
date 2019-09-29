@@ -2,6 +2,7 @@ $(function(){
 
 	initCompareSpecialities();
 	initSearchSpecialities();
+	initCompareSubmit();
 
 });
 
@@ -18,27 +19,28 @@ function initCompareSpecialities() {
 				$_double = $('input.retraining__list-checkbox[value="'+val+'"]').not($_this)
 			;
 
-		if (val || !$_double.length) {
+		if ($_double.length) {
 			if (checked == true) {
 				$_double.prop('checked', false);
 				$_double.closest('.retraining__list-item').hide();
 			} else {
 				$_double.closest('.retraining__list-item').show();
-				$('input.retraining__list-checkbox[name="'+name+'"][value="0"]').prop('checked', false);
+				//$('input.retraining__list-checkbox[name="'+name+'"][value="0"]').prop('checked', false);
 			}
 		}
 
-		if (val == 0) {
-			if (checked) {
-				$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', true);
-			} else {
-				$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', false);
-			}
-		}
+		// if (val == 0) {
+		// 	if (checked) {
+		// 		$('input.retraining__list-checkbox').prop('checked', true);
+		// 		$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', true);
+		// 	} else {
+		// 		$('input.retraining__list-checkbox[name="'+name+'"]').prop('checked', false);
+		// 	}
+		// }
 
-		if ($('input.retraining__list-checkbox[name="'+name+'"]').length - 1 == $('input.retraining__list-checkbox[name="'+name+'"]:checked').length) {
-			$('input.retraining__list-checkbox[name="'+name+'"][value="0"]').prop('checked', true);
-		}
+		// if ($('input.retraining__list-checkbox[name="'+name+'"]').length - 1 == $('input.retraining__list-checkbox[name="'+name+'"]:checked').length) {
+		// 	$('input.retraining__list-checkbox[name="'+name+'"][value="0"]').prop('checked', true);
+		// }
 	});
 
 }
@@ -64,8 +66,7 @@ function initSearchSpecialities() {
 					$_parent = $_this.closest('div.retraining__col')
 				;
 
-		if (!$.trim( str ) || str.length < 3) {;
-
+		if ($.trim( str ) || str.length > 2) {
 			$_parent.find('.retraining__list-item').hide();
 			$.each(specialitiesArr, function(k,v){
 				if (k.indexOf(str) > -1) {
@@ -78,6 +79,57 @@ function initSearchSpecialities() {
 		}
 	});
 
+}
+
+
+function initCompareSubmit() {
+	if (!$('#retraining__compare').length) return;
+
+	$('#retraining__compare').on('click', function(){
+		var speciality_past = [],
+				speciality_next = []
+			;
+
+		$('input[name="speciality_past"]:checked').map(function(){
+			speciality_past.push( $(this).val() );
+		});
+		$('input[name="speciality_next"]:checked').map(function(){
+			speciality_next.push( $(this).val() );
+		});
+
+		var compare = speciality_past + ':' + speciality_next;
+
+		$.getJSON( 'http://hr.9pr.ru/index.php?class=competence&method=reducible&value='+compare, function( data ) {
+			if (data) {
+				$('#retraining-table').show();
+				$('html, body').animate({
+					scrollTop: $('#retraining-table').offset().top
+				},500);
+			}
+		  console.log(data);
+		  $.each(data['Сокращаемые специалисты'], function(k,v){
+		  	// Строка
+		  	$.each(v['Должности'], function(kd, vd){
+		  		var wanted_skills = vd['Недостающие навыки'] ? Object.keys(vd['Недостающие навыки']).length : 0;
+		  		var tr = $('<tr>').append(
+			  		$('<td>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name + ' ' + v.employee_birthday})
+			  	).append(
+			  		$('<td>', {'html': v.post_name})
+			  	).append(
+			  		$('<td>', {'html': vd['Должность']})
+			  	).append(
+			  		$('<td>', {'html': wanted_skills})
+			  	).append(
+			  		$('<td>', {'html': wanted_skills})
+			  	).append(
+			  		$('<td>', {'html': wanted_skills})
+			  	);
+			  	tr.appendTo('#retraining-table tbody');
+		  	});
+
+		  });
+		});
+	});
 }
 
 $(function(){
