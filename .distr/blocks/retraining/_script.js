@@ -108,18 +108,20 @@ function initCompareSubmit() {
 		  console.log(data);
 		  $.each(data['need_speciality'], function(kn,vn){
 		  	$('.retraining-table__filter_needpost').append(
-	  			$('<option>', {'html': vn.speciality_name, 'value': vn.speciality_id, 'name': 'retraining-table__filter_needpost'})
+	  			$('<option>', {'html': vn.speciality_name, 'value': vn.speciality_name, 'name': 'retraining-table__filter_needpost'})
 	  		);
 		  });
 
 		  $.each(data['employee_removed'], function(k,v){
 		  	//console.log(k, v);
 		  	$('.retraining-table__filter_name').append(
-	  			$('<option>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name, 'value': v.employee_id, 'name': 'retraining-table__filter_name'})
+	  			$('<option>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name, 'value': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name})
 	  		);
 
+		  	if(filter_post.indexOf(v.post_name) < 0) {
+		  		filter_post.push(v.post_name);
+		  	}
 
-		  	filter_post['"'+v.post_name+'"'] = v.post_id;
 		  	// Строка
 		  	$.each(v['posted'], function(kd, vd){
 		  		//console.log(kd, vd);
@@ -143,11 +145,9 @@ function initCompareSubmit() {
 
 		  });
 
-
-
 		  $.each(filter_post, function(i,v){
 		  	$('.retraining-table__filter_post').append(
-	  			$('<option>', {'html': v, 'value': v, 'name': 'retraining-table__filter_post'})
+	  			$('<option>', {'html': v, 'value': v})
 	  		);
 		  });
 
@@ -157,7 +157,14 @@ function initCompareSubmit() {
 
 
 		  $('.retraining-table__filter').on('change', function(){
-
+		  	var $_this = $(this),
+		  			name = $_this.attr('name'),
+		  			td = name.replace('retraining-table', 'td'),
+		  			val = $_this.val()
+		  		;
+		  	$('.retraining-table__filter').prop('selectedIndex', 0);
+		  	$('#retraining-table tbody tr').hide();
+		  	$('td.'+td+':contains('+val+')').closest('tr').show();
 		  });
 		});
 	});

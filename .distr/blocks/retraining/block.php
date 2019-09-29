@@ -74,17 +74,17 @@
 			<thead>
 				<tr>
 				<td width="200">
-					<select class="retraining-table__filter retraining-table__filter_name custom-select">
+					<select class="retraining-table__filter retraining-table__filter_name custom-select" name="retraining-table__filter_name">
 					  <option selected value="0">Ф.И.О.</option>
 					</select>
 				</td>
 				<td width="200">
-					<select class="retraining-table__filter retraining-table__filter_post custom-select">
+					<select class="retraining-table__filter retraining-table__filter_post custom-select" name="retraining-table__filter_post">
 					  <option selected value="0">Выбрать</option>
 					</select>
 				</td width="200">
 				<td width="200">
-					<select class="retraining-table__filter retraining-table__filter_needpost custom-select">
+					<select class="retraining-table__filter retraining-table__filter_needpost custom-select" name="retraining-table__filter_needpost">
 					  <option selected value="0">Выбрать</option>
 					</select>
 				</td>
