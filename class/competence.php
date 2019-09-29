@@ -56,11 +56,11 @@ class competence {
             WHERE employee = '.$employee_id.'
             )';
 
-            $people["Должности"][$speciality_id] = ["Должность" => $speciality_name];
+            $people["posted"][$speciality_id] = ["post" => $speciality_name];
 
             //получаем недостающие компетенции/навыки для занятия должности
             foreach ($this->conn->query($sql, PDO::FETCH_ASSOC) as $row) {
-                $people["Должности"][$speciality_id]["Недостающие навыки"][] = $row;
+                $people["posted"][$speciality_id]["competence_absent"][] = $row;
                 $this->needComp[] = $row['id'];
             }
         }
@@ -83,7 +83,7 @@ class competence {
             JOIN employee ON employee = employee_id
             WHERE LEVEL = 4 AND competence = '.$idComp;
             foreach ($this->conn->query($sql, PDO::FETCH_ASSOC) as $row) {
-                $tmp[] = ["Ид недостающий компетенции" => $idComp, "Кол-во экспертов по компетенции" => $row['count']];
+                $tmp[] = ["competence_absent_id" => $idComp, "expert_count" => $row['count']];
             }
         }
         return $tmp;
@@ -100,7 +100,7 @@ class competence {
         $result = [];
         //получаем список востребованных специальностей
         $relevantSpecialties = $this->relevantSpecialties($var[1]);
-        $result["Востребованные специальности"] = $relevantSpecialties;
+        $result["need_speciality"] = $relevantSpecialties;
 
         //выясняем каких навыков/компетенций не хватает сокращаемым для занятия вакантных должностей
         foreach ($varReducible as $idSpeciality) {
@@ -114,12 +114,12 @@ class competence {
                 $retiredSpecialist[] = $this->employeeWeaknesses ($row, $relevantSpecialties);;
             }
         }
-        $result["Сокращаемые специалисты"] = $retiredSpecialist;
+        $result["employee_removed"] = $retiredSpecialist;
 
         // находим экспертов по недостающим компетенциям
         $needCompUnik = $this->expert2comp ();
 
-        $result["Эксперты по востребованным компетенциям"] = $needCompUnik;
+        $result["expert_need_competence"] = $needCompUnik;
 
         header('Content-Type: application/json');
         echo json_encode($result, JSON_UNESCAPED_UNICODE);
