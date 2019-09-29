@@ -1,5 +1,9 @@
 .header {
 	background: $gray-100;
+	&__name {
+		padding-left: .5rem;
+		font-weight: bold;
+	}
 	&__navbar {
 		&-btn {
 			display: flex;
