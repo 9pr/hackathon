@@ -15,6 +15,7 @@ const imageminWebp = require('imagemin-webp');
 const pngquant = require('imagemin-pngquant');
 const svgo = require('gulp-svgo');
 const htmlmin = require('gulp-htmlmin');
+const prefix = require('gulp-autoprefixer');
 
 
 var nunjucks = require('nunjucks');
@@ -136,6 +137,9 @@ gulp.task('styles:css', function () {
         //outputStyle: 'compact',
         outputStyle: 'compressed'
     }) )
+    .pipe(prefix({
+        browsers: ['last 2 versions']
+    }) )
     .pipe( plugins.if( CONFIG.useAutoprefixer, plugins.autoprefixer({
         browsers: ['last 10 versions']
     }) ) )
@@ -147,6 +151,16 @@ gulp.task('styles:css', function () {
 /* Задача для рендеринга шаблонов Nunjucks */
 gulp.task('nunjucks', ['styles:css', 'scripts'], function() {
     console.log('* Рендеринг шаблонов (Nunjucks) *');
+
+
+    var env = new nunjucks.Environment();;
+    env.addFilter('json', function (value, spaces) {
+        if (value instanceof nunjucks.runtime.SafeString) {
+          value = value.toString()
+        }
+        const jsonString = JSON.stringify(value, null, spaces).replace(/</g, '\\u003c')
+        return nunjucks.runtime.markSafe(jsonString)
+      });
 
     return gulp.src(['**/*.php', '!_**/*.php'], {cwd: CONFIG.pages})
     .pipe( plugins.nunjucksRender({

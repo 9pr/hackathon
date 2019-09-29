@@ -192,13 +192,31 @@
 		</div>
 	</div>
 
-	<div class="retraining__tab retraining__tab_table mt-5">
-		<table id="retraining-table" class="table table-bordered table-striped table-hover table-sm" style="display: none;">
+	<div class="retraining__tab retraining__tab_table mt-5" style="display: none;">
+		<table id="retraining-table" class="table table-bordered table-striped table-hover table-sm">
 			<thead>
 				<tr>
-					<th>Ф.И.О.</th>
-					<th>Текущая специальность</th>
-					<th>Требуемая специальность</th>
+				<td width="200">
+					<select class="retraining-table__filter retraining-table__filter_name custom-select">
+					  <option selected value="0">Ф.И.О.</option>
+					</select>
+				</td>
+				<td width="200">
+					<select class="retraining-table__filter retraining-table__filter_post custom-select">
+					  <option selected value="0">Выбрать</option>
+					</select>
+				</td width="200">
+				<td width="200">
+					<select class="retraining-table__filter retraining-table__filter_needpost custom-select">
+					  <option selected value="0">Выбрать</option>
+					</select>
+				</td>
+				<td colspan="3"></td>
+			</tr>
+				<tr>
+					<th width="200">Ф.И.О.</th>
+					<th width="200">Текущая специальность</th>
+					<th width="200">Требуемая специальность</th>
 					<th>Недостающие компетенции</th>
 					<th>Эксперты</th>
 					<th>Курсы</th>

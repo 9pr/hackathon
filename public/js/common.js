@@ -102,21 +102,37 @@ function initCompareSubmit() {
 		$.getJSON( 'http://hr.9pr.ru/index.php?class=competence&method=reducible&value='+compare, function( data ) {
 			if (data) {
 				$('#retraining-table').show();
-				$('html, body').animate({
-					scrollTop: $('#retraining-table').offset().top
-				},500);
 			}
+
+			var filter_post = [];
 		  console.log(data);
-		  $.each(data['Сокращаемые специалисты'], function(k,v){
+		  $.each(data['need_speciality'], function(kn,vn){
+		  	$('.retraining-table__filter_needpost').append(
+	  			$('<option>', {'html': vn.speciality_name, 'value': vn.speciality_id, 'name': 'retraining-table__filter_needpost'})
+	  		);
+		  });
+
+		  $.each(data['employee_removed'], function(k,v){
+		  	//console.log(k, v);
+		  	$('.retraining-table__filter_name').append(
+	  			$('<option>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name, 'value': v.employee_id, 'name': 'retraining-table__filter_name'})
+	  		);
+
+		  	filter_post.push({post_name: post_id});
+	  		$('.retraining-table__filter_post').append(
+	  			$('<option>', {'html': v.post_name, 'value': v.post_id, 'name': 'retraining-table__filter_post'})
+	  		);
 		  	// Строка
-		  	$.each(v['Должности'], function(kd, vd){
-		  		var wanted_skills = vd['Недостающие навыки'] ? Object.keys(vd['Недостающие навыки']).length : 0;
+		  	$.each(v['posted'], function(kd, vd){
+		  		//console.log(kd, vd);
+
+		  		var wanted_skills = vd['competence_absent'] ? Object.keys(vd['competence_absent']).length : 0;
 		  		var tr = $('<tr>').append(
-			  		$('<td>', {'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name + ' ' + v.employee_birthday})
+			  		$('<td>', {'class': 'td__filter_name', 'html': v.employee_surname + ' ' + v.employee_name + ' ' + v.employee_fathers_name + ' ' + v.employee_birthday})
 			  	).append(
-			  		$('<td>', {'html': v.post_name})
+			  		$('<td>', {'class': 'td__filter_post', 'html': v.post_name})
 			  	).append(
-			  		$('<td>', {'html': vd['Должность']})
+			  		$('<td>', {'class': 'td__filter_needpost', 'html': vd['post']})
 			  	).append(
 			  		$('<td>', {'html': wanted_skills})
 			  	).append(
@@ -126,6 +142,14 @@ function initCompareSubmit() {
 			  	);
 			  	tr.appendTo('#retraining-table tbody');
 		  	});
+
+		  });
+
+		  $('.retraining__tab_compare').hide();
+		  $('.retraining__tab_table').show();
+
+
+		  $('.retraining-table__filter').on('change', function(){
 
 		  });
 		});
