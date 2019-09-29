@@ -68,6 +68,31 @@ class competence {
         // print_r($people);
         return $people;
     }
+
+
+    //принимаем информацию о человеке и востребованных специальногстях, находим недостающие квалификации и возвращаем итог
+    private function expert_list ()
+    {
+  
+            //Запрос позволяет получить недостающие квалификации по специальности
+            $sql = 'SELECT employee_id, employee_surname, employee_name, employee_fathers_name, competence_name, post_name, speciality_name, YEAR(NOW()) - YEAR(BEGIN) AS stage
+            FROM competence_employee
+            JOIN competence ON competence = competence_id
+            JOIN employee ON employee = employee_id
+            JOIN post ON employee_id = post_id
+            JOIN speciality ON post_speciality = speciality_id
+            JOIN career ON career.employee = employee_id 
+            
+            WHERE LEVEL = 4 AND end IS NULL';
+            //получаем недостающие компетенции/навыки для занятия должности
+            foreach ($this->conn->query($sql, PDO::FETCH_ASSOC) as $row) {
+                if (!isset($people[$row['employee_id']])) {
+                    $people[$row['employee_id']] = [];
+                }
+                $people[$row['employee_id']][] = $row;
+            }
+        return $people;
+    }
     //Находим экспертов способных обучить переквалифицируемых по недостающим компетенциям
     private function expert2comp(Type $var = null)
     {
@@ -76,14 +101,15 @@ class competence {
 
         // echo "Недостающие компетенции сокращаемых для переквалификации\r\n";
         // print_r($needCompUnik);
-
+        $tmp = [];
         foreach ($needCompUnik as $idComp) {
             $sql = 'SELECT COUNT(*) AS count FROM competence_employee
             JOIN competence ON competence = competence_id
             JOIN employee ON employee = employee_id
             WHERE LEVEL = 4 AND competence = '.$idComp;
+            
             foreach ($this->conn->query($sql, PDO::FETCH_ASSOC) as $row) {
-                $tmp[] = ["competence_absent_id" => $idComp, "expert_count" => $row['count']];
+                $tmp[$idComp] = ["competence_absent_id" => $idComp, "expert_count" => $row['count']];
             }
         }
         return $tmp;
@@ -116,10 +142,32 @@ class competence {
         }
         $result["employee_removed"] = $retiredSpecialist;
 
+
         // находим экспертов по недостающим компетенциям
         $needCompUnik = $this->expert2comp ();
 
         $result["expert_need_competence"] = $needCompUnik;
+        $result["expert_list"] = $this->expert_list();
+
+
+
+        foreach($result["employee_removed"] as $key => $value) {
+            foreach($value["posted"] as $key2 => $value2) {
+                if (!isset($value2["competence_absent"])) {
+                    $result["employee_removed"][$key]["posted"][$key2]['count_expert'] = 0;
+                    continue;
+                } 
+                $result["employee_removed"][$key]["posted"][$key2]['count_expert'] = 0;
+                foreach($value2["competence_absent"] as $key3 => $value3) {
+                    $result["employee_removed"][$key]["posted"][$key2]['count_expert'] += $result["expert_need_competence"][$value3['id']]['expert_count'];
+                    // print_r('######');
+                    // print_r($key2);
+                    //print_r($result["expert_need_competence"][$value3['id']]);
+                }
+            }
+        }
+
+
 
         header('Content-Type: application/json');
         echo json_encode($result, JSON_UNESCAPED_UNICODE);
