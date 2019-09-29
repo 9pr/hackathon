@@ -5,7 +5,7 @@
 		<div class="row">
 
 			<div class="col-md-6">
-				<h4 class="mb-3 retraining__caption">Сокращенные специальности <i class="icon-right-fat"></i></h4>
+				<h4 class="mb-3 retraining__caption">Сокращаемые специальности <i class="icon-right-fat"></i></h4>
 				<div class="retraining__col">
 					<div class="input-group">
 					  <input type="text" class="retraining__search form-control" placeholder="Поиск по специальностям" aria-label="">

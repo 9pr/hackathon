@@ -119,7 +119,7 @@ function initCompareSubmit() {
 	  		);
 
 
-		  	filter_post.push(v.post_name);
+		  	filter_post['"'+v.post_name+'"'] = v.post_id;
 		  	// Строка
 		  	$.each(v['posted'], function(kd, vd){
 		  		//console.log(kd, vd);
@@ -142,6 +142,8 @@ function initCompareSubmit() {
 		  	});
 
 		  });
+
+
 
 		  $.each(filter_post, function(i,v){
 		  	$('.retraining-table__filter_post').append(
