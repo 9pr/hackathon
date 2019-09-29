@@ -13,10 +13,11 @@
 				</div>
 				<div class="retraining__list list-group">
 					
-{% set specialities = "\<\?php require_once(\'data.php\') \?\>" %}
+				{% set specialities %}
+					{{% include './data.php' %}}
+				{% endset %}
 
-
-				{% for item in specialities %}
+									{% for item in specialities %}
 					{{item}}
 					<label class="retraining__list-item list-group-item custom-control custom-checkbox">
 					  <input type="checkbox" class="retraining__list-checkbox custom-control-input" name="speciality_past" value="{{ item.speciality_id }}">
