@@ -1,6 +1,8 @@
 <?PHP
 //http://example.com/class=XXX&method=YYY&value=ZZZ
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: text/html; charset=utf-8');
+
 
 if (!isset($_GET['class'])) {
     $className = '';

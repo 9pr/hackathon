@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "jquery": "^3.4.1",
+    "nunjucks-includeData": "0.0.9",
     "popper.js": "^1.15.0"
   }
 }
