@@ -4,7 +4,7 @@ class raiting {
 
     var $conn; //коннект к бд
 
-    function __construct()
+    function __construct($conn)
     {
         $this->conn = $conn;
     }
